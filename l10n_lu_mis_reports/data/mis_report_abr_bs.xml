@@ -8,7 +8,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_202_201</field>
       <field name="description">ACTIF</field>
-      <field name="expression">ecdf_102_101 +ecdf_108_107 +ecdf_110_109 +ecdf_152_151 +ecdf_200_199</field>
+      <field name="expression">ecdf_102_101  + ecdf_108_107  + ecdf_110_109  + ecdf_152_151  + ecdf_200_199</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -19,7 +19,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_102_101</field>
       <field name="description">A. Capital souscrit non versé</field>
-      <field name="expression">ecdf_104_103 +ecdf_106_105</field>
+      <field name="expression">ecdf_104_103  + ecdf_106_105</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -63,7 +63,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_110_109</field>
       <field name="description">C. Actif immobilisé</field>
-      <field name="expression">ecdf_112_111 +ecdf_126_125 +ecdf_136_135</field>
+      <field name="expression">ecdf_112_111  + ecdf_126_125  + ecdf_136_135</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -107,7 +107,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_152_151</field>
       <field name="description">D. Actif circulant</field>
-      <field name="expression">ecdf_154_153 +ecdf_164_163 +ecdf_190_189 +ecdf_198_197</field>
+      <field name="expression">ecdf_154_153  + ecdf_164_163  + ecdf_190_189  + ecdf_198_197</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -129,7 +129,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_164_163</field>
       <field name="description">II. Créances</field>
-      <field name="expression">ecdf_204_203 +ecdf_206_205</field>
+      <field name="expression">ecdf_204_203  + ecdf_206_205</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -195,7 +195,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_406_405</field>
       <field name="description">PASSIF</field>
-      <field name="expression">-(-ecdf_302_301 -ecdf_330_329 -ecdf_332_331 -ecdf_340_339 -ecdf_404_403)</field>
+      <field name="expression">ecdf_302_301  + ecdf_330_329  + ecdf_332_331  + ecdf_340_339  + ecdf_404_403</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -206,7 +206,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_302_301</field>
       <field name="description">A. Capitaux propres</field>
-      <field name="expression">-(-ecdf_304_303 -ecdf_306_305 -ecdf_308_307 -ecdf_310_309 -ecdf_320_319 -ecdf_322_321 -ecdf_324_323 -ecdf_326_325 -ecdf_328_327)</field>
+      <field name="expression">ecdf_304_303  + ecdf_306_305  + ecdf_308_307  + ecdf_310_309  + ecdf_320_319  + ecdf_322_321  + ecdf_324_323  + ecdf_326_325  + ecdf_328_327</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -272,7 +272,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_322_321</field>
       <field name="description">VI. Résultat de l'exercice</field>
-      <field name="expression">-bals[142%,resultat%,resultat-transfert%]</field>
+      <field name="expression">-bals[142%,resultat%,resultat-transfert]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -338,7 +338,7 @@
       <field ref="mis_report_abr_bs" name="report_id"/>
       <field name="name">ecdf_340_339</field>
       <field name="description">D. Dettes non subordonnées</field>
-      <field name="expression">-(-ecdf_408_407 -ecdf_410_409)</field>
+      <field name="expression">ecdf_408_407  + ecdf_410_409</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>

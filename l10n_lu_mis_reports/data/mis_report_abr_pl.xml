@@ -8,7 +8,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_642_641</field>
       <field name="description">A. CHARGES</field>
-      <field name="expression">ecdf_644_643 +ecdf_606_605 +ecdf_616_615 +ecdf_622_621 +ecdf_624_623 +ecdf_626_625 +ecdf_628_627 +ecdf_634_633 +ecdf_636_635 +ecdf_638_637 +ecdf_650_649 +ecdf_640_639</field>
+      <field name="expression">ecdf_644_643 + ecdf_606_605 + ecdf_616_615 + ecdf_622_621 + ecdf_624_623 + ecdf_626_625 + ecdf_628_627 + ecdf_634_633 + ecdf_636_635 + ecdf_638_637 + ecdf_650_649 + ecdf_640_639</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -30,7 +30,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_606_605</field>
       <field name="description">3. Frais de personnel</field>
-      <field name="expression">ecdf_608_607 +ecdf_610_609 +ecdf_612_611 +ecdf_614_613</field>
+      <field name="expression">ecdf_608_607 + ecdf_610_609 + ecdf_612_611 + ecdf_614_613</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -85,7 +85,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_616_615</field>
       <field name="description">4. Corrections de valeur</field>
-      <field name="expression">ecdf_618_617 +ecdf_620_619</field>
+      <field name="expression">ecdf_618_617 + ecdf_620_619</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -151,7 +151,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_628_627</field>
       <field name="description">8. Intérêts et autres charges financières</field>
-      <field name="expression">ecdf_630_629 +ecdf_632_631</field>
+      <field name="expression">ecdf_630_629 + ecdf_632_631</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -239,7 +239,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_738_737</field>
       <field name="description">B. PRODUITS</field>
-      <field name="expression">-(-ecdf_740_739 -ecdf_716_715 -ecdf_722_721 -ecdf_728_727 -ecdf_734_733 -ecdf_708_707 -ecdf_746_745 -ecdf_736_735)</field>
+      <field name="expression">ecdf_740_739 + ecdf_716_715 + ecdf_722_721 + ecdf_728_727 + ecdf_734_733 + ecdf_708_707 + ecdf_746_745 + ecdf_736_735</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -261,7 +261,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_708_707</field>
       <field name="description">4. Reprises de corrections de valeur</field>
-      <field name="expression">-(-ecdf_710_709 -ecdf_712_711)</field>
+      <field name="expression">ecdf_710_709 + ecdf_712_711</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -294,7 +294,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_716_715</field>
       <field name="description">6. Produits des immobilisations financières</field>
-      <field name="expression">-(-ecdf_718_717 -ecdf_720_719)</field>
+      <field name="expression">ecdf_718_717 + ecdf_720_719</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -327,7 +327,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_722_721</field>
       <field name="description">7. Produits des éléments financiers de l'actif circulant</field>
-      <field name="expression">-(-ecdf_724_723 -ecdf_726_725)</field>
+      <field name="expression">ecdf_724_723 + ecdf_726_725</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -360,7 +360,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_728_727</field>
       <field name="description">8. Autres intérêts et autres produits financiers</field>
-      <field name="expression">-(-ecdf_730_729 -ecdf_732_731)</field>
+      <field name="expression">ecdf_730_729 + ecdf_732_731</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -393,7 +393,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">ecdf_746_745</field>
       <field name="description">9. Quote-part dans le profit des entreprises mises en équivalence</field>
-      <field name="expression">-balp[757%]</field>
+      <field name="expression">balp[757%]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -426,7 +426,7 @@
       <field ref="mis_report_abr_pl" name="report_id"/>
       <field name="name">fr222</field>
       <field name="description">RESULTAT DE L'EXERCICE A TRANSFERER AU 142</field>
-      <field name="expression">-balp[resultat%,resultat-transfert%]</field>
+      <field name="expression">-balp[resultat,resultat-transfert]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>

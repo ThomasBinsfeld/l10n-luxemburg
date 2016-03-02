@@ -8,7 +8,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_202_201</field>
       <field name="description">ACTIF</field>
-      <field name="expression">ecdf_102_101 +ecdf_108_107 +ecdf_110_109 +ecdf_152_151 +ecdf_200_199</field>
+      <field name="expression">ecdf_102_101 + ecdf_108_107 + ecdf_110_109 + ecdf_152_151 + ecdf_200_199</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -19,7 +19,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_102_101</field>
       <field name="description">A. Capital souscrit non versé</field>
-      <field name="expression">ecdf_104_103 +ecdf_106_105</field>
+      <field name="expression">ecdf_104_103 + ecdf_106_105</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -63,7 +63,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_110_109</field>
       <field name="description">C. Actif immobilisé</field>
-      <field name="expression">ecdf_112_111 +ecdf_126_125 +ecdf_136_135</field>
+      <field name="expression">ecdf_112_111 + ecdf_126_125 + ecdf_136_135</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -74,7 +74,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_112_111</field>
       <field name="description">I. Immobilisations incorporelles</field>
-      <field name="expression">ecdf_114_113 +ecdf_116_115 +ecdf_122_121 +ecdf_124_123</field>
+      <field name="expression">ecdf_114_113 + ecdf_116_115 + ecdf_122_121 + ecdf_124_123</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -96,7 +96,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_116_115</field>
       <field name="description">2. Concessions, brevets, licences, marques, ainsi que droits et valeurs similaires s’ils ont été</field>
-      <field name="expression">ecdf_118_117 +ecdf_120_119</field>
+      <field name="expression">ecdf_118_117 + ecdf_120_119</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -151,7 +151,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_126_125</field>
       <field name="description">II. Immobilisations corporelles</field>
-      <field name="expression">ecdf_128_127 +ecdf_130_129 +ecdf_132_131 +ecdf_134_133</field>
+      <field name="expression">ecdf_128_127 + ecdf_130_129 + ecdf_132_131 + ecdf_134_133</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -206,7 +206,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_136_135</field>
       <field name="description">III. Immobilisations financières</field>
-      <field name="expression">ecdf_138_137 +ecdf_140_139 +ecdf_142_141 +ecdf_144_143 +ecdf_146_145 +ecdf_148_147 +ecdf_150_149</field>
+      <field name="expression">ecdf_138_137 + ecdf_140_139 + ecdf_142_141 + ecdf_144_143 + ecdf_146_145 + ecdf_148_147 + ecdf_150_149</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -294,7 +294,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_152_151</field>
       <field name="description">D. Actif circulant</field>
-      <field name="expression">ecdf_154_153 +ecdf_164_163 +ecdf_190_189 +ecdf_198_197</field>
+      <field name="expression">ecdf_154_153 + ecdf_164_163 + ecdf_190_189 + ecdf_198_197</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -305,7 +305,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_154_153</field>
       <field name="description">I. Stocks</field>
-      <field name="expression">ecdf_156_155 +ecdf_158_157 +ecdf_160_159 +ecdf_162_161</field>
+      <field name="expression">ecdf_156_155 + ecdf_158_157 + ecdf_160_159 + ecdf_162_161</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -360,7 +360,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_164_163</field>
       <field name="description">II. Créances</field>
-      <field name="expression">ecdf_166_165 +ecdf_172_171 +ecdf_178_177 +ecdf_184_183</field>
+      <field name="expression">ecdf_166_165 + ecdf_172_171 + ecdf_178_177 + ecdf_184_183</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -371,7 +371,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_166_165</field>
       <field name="description">1. Créances résultant de ventes et prestations de services</field>
-      <field name="expression">ecdf_168_167 +ecdf_170_169</field>
+      <field name="expression">ecdf_168_167 + ecdf_170_169</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -404,7 +404,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_172_171</field>
       <field name="description">2. Créances sur des entreprises liées</field>
-      <field name="expression">ecdf_174_173 +ecdf_176_175</field>
+      <field name="expression">ecdf_174_173 + ecdf_176_175</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -437,7 +437,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_178_177</field>
       <field name="description">3. Créances sur des entreprises avec lesquelles la société a un lien de participation</field>
-      <field name="expression">ecdf_180_179 +ecdf_182_181</field>
+      <field name="expression">ecdf_180_179 + ecdf_182_181</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -470,7 +470,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_184_183</field>
       <field name="description">4. Autres créances</field>
-      <field name="expression">ecdf_186_185 +ecdf_188_187</field>
+      <field name="expression">ecdf_186_185 + ecdf_188_187</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -503,7 +503,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_190_189</field>
       <field name="description">III. Valeurs mobilières</field>
-      <field name="expression">ecdf_192_191 +ecdf_194_193 +ecdf_196_195</field>
+      <field name="expression">ecdf_192_191 + ecdf_194_193 + ecdf_196_195</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -569,7 +569,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_406_405</field>
       <field name="description">PASSIF</field>
-      <field name="expression">-(-ecdf_302_301 -ecdf_330_329 -ecdf_332_331 -ecdf_340_339 -ecdf_404_403)</field>
+      <field name="expression">ecdf_302_301 + ecdf_330_329 + ecdf_332_331 + ecdf_340_339 + ecdf_404_403</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -580,7 +580,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_302_301</field>
       <field name="description">A. Capitaux propres</field>
-      <field name="expression">-(-ecdf_304_303 -ecdf_306_305 -ecdf_308_307 -ecdf_310_309 -ecdf_320_319 -ecdf_322_321 -ecdf_324_323 -ecdf_326_325 -ecdf_328_327)</field>
+      <field name="expression">ecdf_304_303 + ecdf_306_305 + ecdf_308_307 + ecdf_310_309 + ecdf_320_319 + ecdf_322_321 + ecdf_324_323 + ecdf_326_325 + ecdf_328_327</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -624,7 +624,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_310_309</field>
       <field name="description">IV. Réserves</field>
-      <field name="expression">-(-ecdf_312_311 -ecdf_314_313 -ecdf_316_315 -ecdf_318_317)</field>
+      <field name="expression">ecdf_312_311 + ecdf_314_313 + ecdf_316_315 + ecdf_318_317</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -690,7 +690,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_322_321</field>
       <field name="description">VI. Résultat de l'exercice</field>
-      <field name="expression">-bals[142%,resultat%,resultat-transfert%]</field>
+      <field name="expression">-bals[142%,resultat,resultat-transfert]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -745,7 +745,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_332_331</field>
       <field name="description">C. Provisions</field>
-      <field name="expression">-(-ecdf_334_333 -ecdf_336_335 -ecdf_338_337)</field>
+      <field name="expression">ecdf_334_333 + ecdf_336_335 + ecdf_338_337</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -789,7 +789,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_340_339</field>
       <field name="description">D. Dettes non subordonnées</field>
-      <field name="expression">-(-ecdf_342_341 -ecdf_356_355 -ecdf_362_361 -ecdf_368_367 -ecdf_374_373 -ecdf_380_379 -ecdf_386_385 -ecdf_392_391 -ecdf_398_397)</field>
+      <field name="expression">ecdf_342_341 + ecdf_356_355 + ecdf_362_361 + ecdf_368_367 + ecdf_374_373 + ecdf_380_379 + ecdf_386_385 + ecdf_392_391 + ecdf_398_397</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -800,7 +800,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_342_341</field>
       <field name="description">1. Emprunts obligataires</field>
-      <field name="expression">-(-ecdf_344_343 -ecdf_350_349)</field>
+      <field name="expression">ecdf_344_343 + ecdf_350_349</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -811,7 +811,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_344_343</field>
       <field name="description">a) Emprunts convertibles</field>
-      <field name="expression">-(-ecdf_346_345 -ecdf_348_347)</field>
+      <field name="expression">ecdf_346_345 + ecdf_348_347</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -844,7 +844,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_350_349</field>
       <field name="description">b) Emprunts non convertibles</field>
-      <field name="expression">-(-ecdf_352_351 -ecdf_354_353)</field>
+      <field name="expression">ecdf_352_351 + ecdf_354_353</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -877,7 +877,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_356_355</field>
       <field name="description">2. Dettes envers des établissements de crédit</field>
-      <field name="expression">-(-ecdf_358_357 -ecdf_360_359)</field>
+      <field name="expression">ecdf_358_357 + ecdf_360_359</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -910,7 +910,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_362_361</field>
       <field name="description">3. Acomptes reçus sur commandes pour autant qu’ils ne sont pas déduits des stocks de façon distincte</field>
-      <field name="expression">-(-ecdf_364_363 -ecdf_366_365)</field>
+      <field name="expression">ecdf_364_363 + ecdf_366_365</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -943,7 +943,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_368_367</field>
       <field name="description">4. Dettes sur achats et prestations de services</field>
-      <field name="expression">-(-ecdf_370_369 -ecdf_372_371)</field>
+      <field name="expression">ecdf_370_369 + ecdf_372_371</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -976,7 +976,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_374_373</field>
       <field name="description">5. Dettes représentées par des effets de commerce</field>
-      <field name="expression">-(-ecdf_376_375 -ecdf_378_377)</field>
+      <field name="expression">ecdf_376_375 + ecdf_378_377</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -1009,7 +1009,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_380_379</field>
       <field name="description">6. Dettes envers des entreprises liées</field>
-      <field name="expression">-(-ecdf_382_381 -ecdf_384_383)</field>
+      <field name="expression">ecdf_382_381 + ecdf_384_383</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -1042,7 +1042,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_386_385</field>
       <field name="description">7. Dettes envers des entreprises avec lesquelles la société a un lien de participation</field>
-      <field name="expression">-(-ecdf_388_387 -ecdf_390_389)</field>
+      <field name="expression">ecdf_388_387 + ecdf_390_389</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -1075,7 +1075,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_392_391</field>
       <field name="description">8. Dettes fiscales et dettes au titre de la sécurité sociale</field>
-      <field name="expression">-(-ecdf_394_393 -ecdf_396_395)</field>
+      <field name="expression">ecdf_394_393 + ecdf_396_395</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -1108,7 +1108,7 @@
       <field ref="mis_report_bs" name="report_id"/>
       <field name="name">ecdf_398_397</field>
       <field name="description">9. Autres dettes</field>
-      <field name="expression">-(-ecdf_400_399 -ecdf_402_401)</field>
+      <field name="expression">ecdf_400_399 + ecdf_402_401</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
