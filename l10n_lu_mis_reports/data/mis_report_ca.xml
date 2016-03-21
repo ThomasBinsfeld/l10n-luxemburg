@@ -2,7 +2,7 @@
 <openerp>
   <data>
     <record id="mis_report_ca" model="mis.report">
-      <field name="name">Your Company</field>
+      <field name="name">Luxembourg Chart of Accounts</field>
     </record>
     <record id="mis_report_ca_bilan" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
