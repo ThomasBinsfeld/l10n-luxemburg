@@ -4,10 +4,10 @@
     <record id="mis_report_ca" model="mis.report">
       <field name="name">Luxembourg Chart of Accounts</field>
     </record>
-    <record id="mis_report_ca_bilan" model="mis.report.kpi">
+    <record id="mis_report_ca_ecdf_1111_1112" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">Bilan</field>
-      <field name="description">BILAN</field>
+      <field name="name">ecdf_1111_1112</field>
+      <field name="description">Bilan - TOTAL CLASSES 1 A 5</field>
       <field name="expression">bale[1,2,3,4,5]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
@@ -17,7 +17,7 @@
     </record>
     <record id="mis_report_ca_1" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">1</field>
+      <field name="name">Classe1</field>
       <field name="description">1  - CLASSE 1 - COMPTES DE CAPITAUX, DE PROVISIONS ET DE DETTES FINANCIERES</field>
       <field name="expression">bale[1%]</field>
       <field name="suffix">€</field>
@@ -1755,7 +1755,7 @@
     </record>
     <record id="mis_report_ca_2" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">2</field>
+      <field name="name">Classe2</field>
       <field name="description">2  - CLASSE 2 - COMPTES DE FRAIS D’ETABLISSEMENT ET D’ACTIFS IMMOBILISES</field>
       <field name="expression">bale[2%]</field>
       <field name="suffix">€</field>
@@ -2822,7 +2822,7 @@
     </record>
     <record id="mis_report_ca_3" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">3</field>
+      <field name="name">Classe3</field>
       <field name="description">3  - CLASSE 3 - COMPTES DE STOCKS</field>
       <field name="expression">bale[3%]</field>
       <field name="suffix">€</field>
@@ -3196,7 +3196,7 @@
     </record>
     <record id="mis_report_ca_4" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">4</field>
+      <field name="name">Classe4</field>
       <field name="description">4  - CLASSE 4 - COMPTES DE TIERS</field>
       <field name="expression">bale[4%]</field>
       <field name="suffix">€</field>
@@ -5979,7 +5979,7 @@
     </record>
     <record id="mis_report_ca_5" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">5</field>
+      <field name="name">Classe5</field>
       <field name="description">5  - CLASSE 5 - COMPTES FINANCIERS</field>
       <field name="expression">bale[5%]</field>
       <field name="suffix">€</field>
@@ -6219,10 +6219,10 @@
       <field name="default_css_style"/>
       <field name="sequence">13220</field>
     </record>
-    <record id="mis_report_ca_resultat" model="mis.report.kpi">
+    <record id="mis_report_ca_ecdf_2257_2258" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">Resultat</field>
-      <field name="description">RESULTAT</field>
+      <field name="name">ecdf_2257_2258</field>
+      <field name="description">Resultat - TOTAL CLASSES 6 ET 7</field>
       <field name="expression">bale[6,7]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
@@ -6232,7 +6232,7 @@
     </record>
     <record id="mis_report_ca_6" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">6</field>
+      <field name="name">Classe6</field>
       <field name="description">6  - CLASSE 6 - COMPTES DE CHARGES</field>
       <field name="expression">bale[6%]</field>
       <field name="suffix">€</field>
@@ -10302,7 +10302,7 @@
     </record>
     <record id="mis_report_ca_7" model="mis.report.kpi">
       <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">7</field>
+      <field name="name">Classe7</field>
       <field name="description">7  - CLASSE 7 - COMPTES DE PRODUITS</field>
       <field name="expression">bale[7%]</field>
       <field name="suffix">€</field>
@@ -12543,28 +12543,6 @@
       <field name="compare_method">pct</field>
       <field name="default_css_style"/>
       <field name="sequence">24150</field>
-    </record>
-    <record id="mis_report_ca_ecdf_1111_1112" model="mis.report.kpi">
-      <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">ecdf_1111_1112</field>
-      <field name="description">bilan - TOTAL CLASSES 1 A 5</field>
-      <field name="expression">bale[bilan%]</field>
-      <field name="suffix">€</field>
-      <field name="type">num</field>
-      <field name="compare_method">pct</field>
-      <field name="default_css_style"> </field>
-      <field name="sequence">24170</field>
-    </record>
-    <record id="mis_report_ca_ecdf_2257_2258" model="mis.report.kpi">
-      <field ref="mis_report_ca" name="report_id"/>
-      <field name="name">ecdf_2257_2258</field>
-      <field name="description">resultat - TOTAL CLASSES 6 ET 7</field>
-      <field name="expression">bale[resultat%]</field>
-      <field name="suffix">€</field>
-      <field name="type">num</field>
-      <field name="compare_method">pct</field>
-      <field name="default_css_style"> </field>
-      <field name="sequence">24180</field>
     </record>
   </data>
 </openerp>
