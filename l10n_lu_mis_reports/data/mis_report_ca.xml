@@ -8,7 +8,7 @@
       <field ref="mis_report_ca" name="report_id"/>
       <field name="name">ecdf_1111_1112</field>
       <field name="description">Bilan - TOTAL CLASSES 1 A 5</field>
-      <field name="expression">bale[1,2,3,4,5]</field>
+      <field name="expression">bale[1%,2%,3%,4%,5%]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -6223,7 +6223,7 @@
       <field ref="mis_report_ca" name="report_id"/>
       <field name="name">ecdf_2257_2258</field>
       <field name="description">Resultat - TOTAL CLASSES 6 ET 7</field>
-      <field name="expression">bale[6,7]</field>
+      <field name="expression">bal[6%,7%]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -6234,7 +6234,7 @@
       <field ref="mis_report_ca" name="report_id"/>
       <field name="name">Classe6</field>
       <field name="description">6  - CLASSE 6 - COMPTES DE CHARGES</field>
-      <field name="expression">bale[6%]</field>
+      <field name="expression">bal[6%]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
@@ -10304,7 +10304,7 @@
       <field ref="mis_report_ca" name="report_id"/>
       <field name="name">Classe7</field>
       <field name="description">7  - CLASSE 7 - COMPTES DE PRODUITS</field>
-      <field name="expression">bale[7%]</field>
+      <field name="expression">bal[7%]</field>
       <field name="suffix">€</field>
       <field name="type">num</field>
       <field name="compare_method">pct</field>
