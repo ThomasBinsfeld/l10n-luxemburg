@@ -42,5 +42,6 @@
         'data/mis_report_ca.xml',
         'data/mis_report_abr_pl.xml',
         'data/mis_report_abr_bs.xml',
+        'data/account_chart_template.xml',
     ],
 }
