@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data>
-		<record id="l10n_lu.lu_2011_chart_1" model="account.chart.template">
+    <data>
+        <record id="l10n_lu.lu_2011_chart_1" model="account.chart.template">
             <field name="trial_balance_report_id" ref="l10n_lu_mis_reports.mis_report_ca"/>
             <field name="balance_sheet_report_id" ref="l10n_lu_mis_reports.mis_report_bs"/>
             <field name="profit_and_loss_report_id" ref="l10n_lu_mis_reports.mis_report_pl"/>
         </record>
-	</data>
+    </data>
 </openerp>
